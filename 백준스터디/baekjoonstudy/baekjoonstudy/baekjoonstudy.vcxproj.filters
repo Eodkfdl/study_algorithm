@@ -69,5 +69,8 @@
     <ClCompile Include="90951,2,3더하기.cpp">
       <Filter>소스 파일\백준</Filter>
     </ClCompile>
+    <ClCompile Include="25강정렬두배열의원소교체.cpp">
+      <Filter>소스 파일\이코테</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
