@@ -72,5 +72,8 @@
     <ClCompile Include="25강정렬두배열의원소교체.cpp">
       <Filter>소스 파일\이코테</Filter>
     </ClCompile>
+    <ClCompile Include="이코테27강떡볶이떡.cpp">
+      <Filter>소스 파일\이코테</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

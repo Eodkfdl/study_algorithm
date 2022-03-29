@@ -181,6 +181,7 @@
     <ClCompile Include="이코테20강음료수얼려먹기.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="이코테27강떡볶이떡.cpp" />
     <ClCompile Include="이코테그리디1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
