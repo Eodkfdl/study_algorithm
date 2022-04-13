@@ -78,5 +78,11 @@
     <ClCompile Include="이코테27강정렬된배열에서특정수의개수구하기.cpp">
       <Filter>소스 파일\이코테</Filter>
     </ClCompile>
+    <ClCompile Include="이코테29강개미전사.cpp">
+      <Filter>소스 파일\이코테</Filter>
+    </ClCompile>
+    <ClCompile Include="이코테29강 1만들기.cpp">
+      <Filter>소스 파일\이코테</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
