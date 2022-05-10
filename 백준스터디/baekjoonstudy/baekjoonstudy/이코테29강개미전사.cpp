@@ -8,6 +8,9 @@
 얻을 수 있는 식량의 최댓값을 출력하라.
 */
 
+//idea: 순차적으로 모든 상자를 더하는 것이 아니라(브루탈 아님) 
+//1. 큰문제를 해결 하기위해 작은문제로 나누어 해결할수있는가 
+
 #include<iostream>
 #include<vector>
 #include<algorithm>
@@ -15,7 +18,7 @@ using namespace std;
 
 vector<int> Store;
 int dp[100];
-int n, temp;
+int n=1, temp;
 
 int main() {
 	cin >> n;

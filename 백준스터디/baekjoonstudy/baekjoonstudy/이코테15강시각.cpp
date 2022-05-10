@@ -3,7 +3,6 @@
 
 
 #include<iostream>
-
 using namespace std;
 
 
@@ -29,8 +28,10 @@ int main() {
 			}
 		}
 	}
-
+	
+	
 	cout << count_n;
 }
 
 //완전 탐색 문제 유형 가능한 경우의수를 모두 검사해보는 탐색방법(brute force)
+//문자열로도 해결가능하지않을까? string time으로 받고 

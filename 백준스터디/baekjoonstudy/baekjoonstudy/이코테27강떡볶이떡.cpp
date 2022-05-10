@@ -34,7 +34,7 @@ int main() {
 		for (int i = 0; i < N; i++) {
 			if(R[i]>mid)sum += R[i] - mid;
 		}
-		if (sum < M) {//
+		if (sum < M) {
 			end = mid - 1;
 		}
 		else if (sum >= M) {

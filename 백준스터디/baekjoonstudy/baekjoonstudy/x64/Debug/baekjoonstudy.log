@@ -1,1 +1,6 @@
-﻿  baekjoonstudy.vcxproj -> C:\git\study_algorithm\백준스터디\baekjoonstudy\x64\Debug\baekjoonstudy.exe
+﻿  lv1신규아이디추천.cpp
+C:\git\study_algorithm\백준스터디\baekjoonstudy\baekjoonstudy\lv1신규아이디추천.cpp(36,29): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\git\study_algorithm\백준스터디\baekjoonstudy\baekjoonstudy\lv1신규아이디추천.cpp(48,27): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\git\study_algorithm\백준스터디\baekjoonstudy\baekjoonstudy\lv1신규아이디추천.cpp(53,25): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\git\study_algorithm\백준스터디\baekjoonstudy\baekjoonstudy\lv1신규아이디추천.cpp(59,27): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  baekjoonstudy.vcxproj -> C:\git\study_algorithm\백준스터디\baekjoonstudy\x64\Debug\baekjoonstudy.exe

@@ -22,7 +22,7 @@ std::cin >> n >> m;
 
 for (int i = 0; i < n; i++) {
 	for (int j = 0; j < m; j++) {
-		scanf_s("%1d", &maze[i][j]);
+		scanf_s("%1d", &maze[i][j]);//scanf_s를쓰는이유? 한줄씩 
 	}
 }
 point p;

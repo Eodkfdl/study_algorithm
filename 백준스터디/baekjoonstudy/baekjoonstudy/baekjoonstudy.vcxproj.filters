@@ -19,6 +19,12 @@
     <Filter Include="소스 파일\백준">
       <UniqueIdentifier>{89bcd8ea-45d2-41e9-989c-6ef3be185067}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스">
+      <UniqueIdentifier>{39ed73d6-f597-41f9-b53b-31ec4c239ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\네오플코테">
+      <UniqueIdentifier>{15c3e634-5c97-4f89-9e10-7c575dc52b33}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="이코테14강상하좌우.cpp">
@@ -39,13 +45,13 @@
     <ClCompile Include="이코테20강음료수얼려먹기.cpp">
       <Filter>소스 파일\이코테</Filter>
     </ClCompile>
-    <ClCompile Include="이코테그리디1.cpp">
+    <ClCompile Include="이코테12강그리디1.cpp">
       <Filter>소스 파일\이코테</Filter>
     </ClCompile>
-    <ClCompile Include="이코테그리디2.cpp">
+    <ClCompile Include="이코테12강그리디2.cpp">
       <Filter>소스 파일\이코테</Filter>
     </ClCompile>
-    <ClCompile Include="이코테그리디3.cpp">
+    <ClCompile Include="이코테12강그리디3.cpp">
       <Filter>소스 파일\이코테</Filter>
     </ClCompile>
     <ClCompile Include="1920수찾기.cpp">
@@ -69,7 +75,7 @@
     <ClCompile Include="90951,2,3더하기.cpp">
       <Filter>소스 파일\백준</Filter>
     </ClCompile>
-    <ClCompile Include="25강정렬두배열의원소교체.cpp">
+    <ClCompile Include="이코테25강정렬두배열의원소교체.cpp">
       <Filter>소스 파일\이코테</Filter>
     </ClCompile>
     <ClCompile Include="이코테27강떡볶이떡.cpp">
@@ -86,6 +92,63 @@
     </ClCompile>
     <ClCompile Include="lazyskiplist.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="이코테29강fibo.cpp">
+      <Filter>소스 파일\이코테</Filter>
+    </ClCompile>
+    <ClCompile Include="이코테30강 다익스트라.cpp">
+      <Filter>소스 파일\이코테</Filter>
+    </ClCompile>
+    <ClCompile Include="10815번숫자카드.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="10828스택.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="10845큐.cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="1406에디터 .cpp">
+      <Filter>소스 파일\백준</Filter>
+    </ClCompile>
+    <ClCompile Include="타겟넘버.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="1.cpp">
+      <Filter>소스 파일\네오플코테</Filter>
+    </ClCompile>
+    <ClCompile Include="2.cpp">
+      <Filter>소스 파일\네오플코테</Filter>
+    </ClCompile>
+    <ClCompile Include="3.cpp">
+      <Filter>소스 파일\네오플코테</Filter>
+    </ClCompile>
+    <ClCompile Include="4.cpp">
+      <Filter>소스 파일\네오플코테</Filter>
+    </ClCompile>
+    <ClCompile Include="5.cpp">
+      <Filter>소스 파일\네오플코테</Filter>
+    </ClCompile>
+    <ClCompile Include="6.cpp">
+      <Filter>소스 파일\네오플코테</Filter>
+    </ClCompile>
+    <ClCompile Include="7.cpp">
+      <Filter>소스 파일\네오플코테</Filter>
+    </ClCompile>
+    <ClCompile Include="8.cpp">
+      <Filter>소스 파일\네오플코테</Filter>
+    </ClCompile>
+    <ClCompile Include="다익스트라.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="lv1신고결과받기.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="lv1신규아이디추천.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2문자열압축.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
