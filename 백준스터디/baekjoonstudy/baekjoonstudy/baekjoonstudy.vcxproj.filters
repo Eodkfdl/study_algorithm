@@ -150,5 +150,8 @@
     <ClCompile Include="lv2문자열압축.cpp">
       <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
+    <ClCompile Include="lv2멀쩡한사각형.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
