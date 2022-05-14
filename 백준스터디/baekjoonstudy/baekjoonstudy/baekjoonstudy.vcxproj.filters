@@ -153,5 +153,20 @@
     <ClCompile Include="lv2멀쩡한사각형.cpp">
       <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
+    <ClCompile Include="lv1소수만들기.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="오버킬출제문제.cpp">
+      <Filter>소스 파일\네오플코테</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2 124나라.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2기능개발.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="lv1완주못한선수.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
