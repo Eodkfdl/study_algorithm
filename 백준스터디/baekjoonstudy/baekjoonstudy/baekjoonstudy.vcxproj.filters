@@ -168,5 +168,11 @@
     <ClCompile Include="lv1완주못한선수.cpp">
       <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
+    <ClCompile Include="lv2더맵게.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="lv1k번째수.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
