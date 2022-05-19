@@ -20,10 +20,10 @@ vector<int> solution(int rows, int columns, vector<vector<int>> queries) {
     int min_n = 9999;
     for (auto t : queries) {
         min_n = 9999;
-        x1 = t[0];
-        y1 = t[1];
-        x2 = t[2];
-        y2 = t[3];
+        y1 = t[0];
+        x1 = t[1];
+        y2 = t[2];
+        x2 = t[3];
         //로테이션 되야하는 숫자들 저장.
         for (int i = x1; i < x2; i++) {
             rot_n.push_back(mat[y1][i]);
