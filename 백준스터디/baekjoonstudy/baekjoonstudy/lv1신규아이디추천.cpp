@@ -21,6 +21,7 @@ void comma(string& new_id) {
             if (i == 0 || i == new_id.length() - 1) {
                 new_id.erase(i,1);
                 i--;
+            
             }
         }
     }

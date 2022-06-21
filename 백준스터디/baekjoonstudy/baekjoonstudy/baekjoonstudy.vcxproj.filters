@@ -195,5 +195,38 @@
     <ClCompile Include="lv2 가장 큰 수.cpp">
       <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
+    <ClCompile Include="어소트락.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="bfs.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dfs.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="qsort.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="lv1 3진법 뒤집기cpp.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2 전화번호 목록.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2프린터.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2 게임 맵 최단거리.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2 조이스틱.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2 다리를지나는트럭.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2 주식가격.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

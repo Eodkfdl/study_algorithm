@@ -1,5 +1,8 @@
+
+//상하좌우 1,2,3,4;
 #include <string>
 #include <vector>
+#include <algorithm>
 #include <iostream>
 using namespace std;
 int max_x, max_y;
@@ -9,24 +12,25 @@ int max_x, max_y;
 //즉 2차원배열로 표현 가능함.
 
 //상하좌우 1,2,3,4;
-int dx[5] = { 0,0,0,-1,1 };
-int dy[5] = { 0,1,-1,0,0 };
+
+int dx[4] = { 0,0,-1,1 };
+int dy[4] = { 1,-1,0,0 };
 bool visit[500][500][5];//그리드는 최대[500][500]의 행렬이고 해당 포인트로 들어오는 방향은 4방향 이므로 [4]
 int c_dir(int dir, char c) {
     //현재의 dir, grid의 방향에따라 알맞은 방향을 준다.
     //그리드가 Left일경우
     if (c == 'L') {
-        if (dir == 1)return dir = 3;
-        if (dir == 2)return dir = 4;
-        if (dir == 3)return dir = 2;
-        if (dir == 4)return dir = 1;
+        if (dir == 0)return 2;
+        if (dir == 1)return 3;
+        if (dir == 2)return 1;
+        if (dir == 3)return 0;
     }
     else {
         //grid가 right인경우
-        if (dir == 1)return dir = 4;
-        if (dir == 2)return dir = 3;
-        if (dir == 3)return dir = 1;
-        if (dir == 4)return dir = 2;
+        if (dir == 0)return 3;
+        if (dir == 1)return 2;
+        if (dir == 2)return 0;
+        if (dir == 3)return 1;
     }
 }
 //빛이 시작하는 point(x,y)와 해당 빛의 시작방향에 따라 구분이 됨
@@ -59,14 +63,14 @@ vector<int> solution(vector<string> grid) {
     int len = 0;//탐색을 통해 리턴받은 사이클의 길이
 
     for (int i = 0; i < max_y; i++) {
-        for (int j = 0; j < max_x; i++) {
+        for (int j = 0; j < max_x; j++) {
             for (int k = 0; k < dir_n; k++) {
-                len = searching(i, k, k, 0, grid);
+                len = searching(i, j, k, 0, grid);
                 if (len > 0)answer.push_back(len);
             }
         }
     }
-
+    sort(answer.begin(), answer.end());
     return answer;
 
 }
@@ -79,5 +83,10 @@ int main() {
     for (; n > 0; n--) {
         cin >> s;
         grid.push_back(s);
+    }
+    vector<int>answer;
+    answer = solution(grid);
+    for (auto t : answer) {
+        cout << t;
     }
 }

@@ -1,5 +1,6 @@
 #include <iostream>
 #include<string>
+#include<stack>
 using namespace std;
 
 int solution1(string s)
@@ -24,8 +25,26 @@ int solution1(string s)
 int solution(string s)
 {
     int answer = 0;
-   
-    answer = 1;
+    stack<char> st;
+    //스택에 전부 넣어두고 
+    char t1, t2;
+    auto it = s.begin();
+    while (it != s.end()) {
+        if (st.empty()) {
+            st.push(*it);
+            it++;
+            continue;
+        }
+        t1 = st.top();
+        if (t1 != *it) {
+            st.push(*it);
+        }
+        else st.pop();
+        it++;
+    }
+    if (st.size() == 0)answer = 1;
+
+
 
     return answer;
 }
