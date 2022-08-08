@@ -25,6 +25,36 @@
     <Filter Include="소스 파일\네오플코테">
       <UniqueIdentifier>{15c3e634-5c97-4f89-9e10-7c575dc52b33}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스\dfs,bfs">
+      <UniqueIdentifier>{7ca16b1c-0777-4805-a7bb-6f9c7e599fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\해시">
+      <UniqueIdentifier>{b6651bad-3ab0-4af6-8538-25ea5f352f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\스택,큐">
+      <UniqueIdentifier>{e13d23aa-df78-4e56-b423-15f576680ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\힙%28Heap%29">
+      <UniqueIdentifier>{580b0e4f-825e-4580-a656-86d2cf7e8b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\정렬">
+      <UniqueIdentifier>{713850c6-47aa-4508-a44d-f5ae7064273a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\완전탐색">
+      <UniqueIdentifier>{6c80fb18-4a75-46c2-a1a7-0fb2b58f2d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\그리디">
+      <UniqueIdentifier>{553abe9d-67cc-4e7e-9449-f0c6c239c90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\동적계획법">
+      <UniqueIdentifier>{17fea078-5509-4588-8267-302a85770bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\프로그래머스\이분탐색">
+      <UniqueIdentifier>{7406268e-c62b-44c5-be43-63f73ee528dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\데브시스터">
+      <UniqueIdentifier>{f3395ce6-96dd-486c-91e5-14178c40b11f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="이코테14강상하좌우.cpp">
@@ -111,9 +141,6 @@
     <ClCompile Include="1406에디터 .cpp">
       <Filter>소스 파일\백준</Filter>
     </ClCompile>
-    <ClCompile Include="타겟넘버.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
-    </ClCompile>
     <ClCompile Include="1.cpp">
       <Filter>소스 파일\네오플코테</Filter>
     </ClCompile>
@@ -162,27 +189,6 @@
     <ClCompile Include="lv2 124나라.cpp">
       <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
-    <ClCompile Include="lv2기능개발.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
-    </ClCompile>
-    <ClCompile Include="lv1완주못한선수.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
-    </ClCompile>
-    <ClCompile Include="lv2더맵게.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
-    </ClCompile>
-    <ClCompile Include="lv1k번째수.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
-    </ClCompile>
-    <ClCompile Include="lv1모의고사.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
-    </ClCompile>
-    <ClCompile Include="lv1 체육복.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
-    </ClCompile>
-    <ClCompile Include="lv1폰켓몬.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
-    </ClCompile>
     <ClCompile Include="lv2짝지어제거하기.cpp">
       <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
@@ -190,9 +196,6 @@
       <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
     <ClCompile Include="lv2빛의 경로.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
-    </ClCompile>
-    <ClCompile Include="lv2 가장 큰 수.cpp">
       <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
     <ClCompile Include="어소트락.cpp">
@@ -210,29 +213,140 @@
     <ClCompile Include="lv1 3진법 뒤집기cpp.cpp">
       <Filter>소스 파일\프로그래머스</Filter>
     </ClCompile>
-    <ClCompile Include="lv2 전화번호 목록.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
+    <ClCompile Include="lv2 타겟넘버-dfs.cpp">
+      <Filter>소스 파일\프로그래머스\dfs,bfs</Filter>
     </ClCompile>
-    <ClCompile Include="lv2프린터.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
+    <ClCompile Include="lv3네트워크.cpp">
+      <Filter>소스 파일\프로그래머스\dfs,bfs</Filter>
     </ClCompile>
     <ClCompile Include="lv2 게임 맵 최단거리.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
+      <Filter>소스 파일\프로그래머스\dfs,bfs</Filter>
     </ClCompile>
-    <ClCompile Include="lv2 조이스틱.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
+    <ClCompile Include="lv2단어변환.cpp">
+      <Filter>소스 파일\프로그래머스\dfs,bfs</Filter>
     </ClCompile>
-    <ClCompile Include="lv2 다리를지나는트럭.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
+    <ClCompile Include="lv3 여행경로.cpp">
+      <Filter>소스 파일\프로그래머스\dfs,bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="lv1 폰켓몬.cpp">
+      <Filter>소스 파일\프로그래머스\해시</Filter>
+    </ClCompile>
+    <ClCompile Include="lv1 완주못한선수.cpp">
+      <Filter>소스 파일\프로그래머스\해시</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2 전화번호 목록.cpp">
+      <Filter>소스 파일\프로그래머스\해시</Filter>
+    </ClCompile>
+    <ClCompile Include="lv3베스트앨범.cpp">
+      <Filter>소스 파일\프로그래머스\해시</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2위장.cpp">
+      <Filter>소스 파일\프로그래머스\해시</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2기능개발.cpp">
+      <Filter>소스 파일\프로그래머스\스택,큐</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2프린터.cpp">
+      <Filter>소스 파일\프로그래머스\스택,큐</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2 다리를 지나는 트럭.cpp">
+      <Filter>소스 파일\프로그래머스\스택,큐</Filter>
     </ClCompile>
     <ClCompile Include="lv2 주식가격.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
+      <Filter>소스 파일\프로그래머스\스택,큐</Filter>
+    </ClCompile>
+    <ClCompile Include="lv1 같은 숫자는 싫어.cpp">
+      <Filter>소스 파일\프로그래머스\스택,큐</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2올바른괄호.cpp">
+      <Filter>소스 파일\프로그래머스\스택,큐</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2더맵게.cpp">
+      <Filter>소스 파일\프로그래머스\힙%28Heap%29</Filter>
+    </ClCompile>
+    <ClCompile Include="lv3 디스크컨트롤러.cpp">
+      <Filter>소스 파일\프로그래머스\힙%28Heap%29</Filter>
+    </ClCompile>
+    <ClCompile Include="lv3이중우선순위큐.cpp">
+      <Filter>소스 파일\프로그래머스\힙%28Heap%29</Filter>
+    </ClCompile>
+    <ClCompile Include="lv1k번째수.cpp">
+      <Filter>소스 파일\프로그래머스\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2 가장 큰 수.cpp">
+      <Filter>소스 파일\프로그래머스\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2 H-index.cpp">
+      <Filter>소스 파일\프로그래머스\정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="lv1모의고사.cpp">
+      <Filter>소스 파일\프로그래머스\완전탐색</Filter>
     </ClCompile>
     <ClCompile Include="lv2 소수찾기.cpp">
-      <Filter>소스 파일\프로그래머스</Filter>
+      <Filter>소스 파일\프로그래머스\완전탐색</Filter>
     </ClCompile>
     <ClCompile Include="lv2 카펫.cpp">
+      <Filter>소스 파일\프로그래머스\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2피로도.cpp">
+      <Filter>소스 파일\프로그래머스\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2전력망을 둘로나누기-완전탐색.cpp">
+      <Filter>소스 파일\프로그래머스\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="lv1 최소 직사각형.cpp">
+      <Filter>소스 파일\프로그래머스\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2 모음 사전.cpp">
+      <Filter>소스 파일\프로그래머스\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="lv1 체육복.cpp">
+      <Filter>소스 파일\프로그래머스\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2 조이스틱.cpp">
+      <Filter>소스 파일\프로그래머스\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2 큰수만들기.cpp">
+      <Filter>소스 파일\프로그래머스\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="lv3단속카메라.cpp">
+      <Filter>소스 파일\프로그래머스\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="lv2 구명보트.cpp">
+      <Filter>소스 파일\프로그래머스\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="lv3 섬연결하기.cpp">
+      <Filter>소스 파일\프로그래머스\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="lv3N으로 표현.cpp">
+      <Filter>소스 파일\프로그래머스\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="lv3 정수 삼각형.cpp">
+      <Filter>소스 파일\프로그래머스\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="lv4 징검다리.cpp">
+      <Filter>소스 파일\프로그래머스\이분탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="lv3 입국심사.cpp">
+      <Filter>소스 파일\프로그래머스\이분탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="1번문제.cpp">
+      <Filter>소스 파일\데브시스터</Filter>
+    </ClCompile>
+    <ClCompile Include="2번문제.cpp">
+      <Filter>소스 파일\데브시스터</Filter>
+    </ClCompile>
+    <ClCompile Include="3번문제.cpp">
+      <Filter>소스 파일\데브시스터</Filter>
+    </ClCompile>
+    <ClCompile Include="lv3 순위.cpp">
       <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="lv3 아이템줍기.cpp">
+      <Filter>소스 파일\프로그래머스\dfs,bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="lv3 퍼즐 조각 채우기.cpp">
+      <Filter>소스 파일\프로그래머스\dfs,bfs</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

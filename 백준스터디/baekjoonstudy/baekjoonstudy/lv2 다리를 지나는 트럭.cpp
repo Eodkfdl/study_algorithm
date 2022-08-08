@@ -1,15 +1,11 @@
-#include <iostream>
 #include <string>
 #include <vector>
 #include <queue>
 #include <algorithm>
 using namespace std;
-#include <string>
-#include <vector>
-#include <queue>
-#include <algorithm>
-using namespace std;
-
+bool dec(int a, int b) {
+    return a > b;
+}
 int solution(int bridge_length, int weight, vector<int> truck_weights) {
     int answer = 0;
     //차량무게,진입시간 저장
@@ -43,7 +39,7 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
     return answer + 1;
 }
 int main() {
-    int n = 0, m = 0 ,a=0;
+    int n = 0, m = 0, a = 0;
     cin >> n >> m >> a;
     int temp = 0;
     vector<int> tr;

@@ -9,6 +9,9 @@ bool is_prime(int n) {
     for (int i = 2; i < n; i++)if (n % i == 0)return false;
     return true;
 }
+//next_permutation을 통해 순열을 구하여 경우의 수를 따지는게 핵심이다.
+//next_permutation의 do{ A } A구간에서는 순열의 경우의수에 따라 바뀐 numbers에 접근이 가능하다
+
 int solution(string numbers) {
     int answer = 0;
     set<int> t;

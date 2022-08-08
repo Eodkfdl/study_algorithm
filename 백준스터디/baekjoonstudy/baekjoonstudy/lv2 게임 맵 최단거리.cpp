@@ -52,17 +52,20 @@ int solution(vector<vector<int> > maps)
 
     return answer;
 }
-vector<vector<int>> maps;
+
 int main() {
+    vector<vector<int>> maps;
     int n, m;
     cin >> n >> m;
     vector<int>v;
+    //maps 틀만들기
     for (int i = 0; i < n; i++) {
         maps.push_back(v);
         for (int j = 0; j < m; j++) {
             maps[i].push_back(0);
         }
     }
+    //데이터 줄단위로 입력받기
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
             scanf_s("%1d", &maps[i][j]);

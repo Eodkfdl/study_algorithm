@@ -5,15 +5,7 @@ using namespace std;
 
 vector<int> solution(int brown, int yellow) {
 
-    //x>=y 
-    //brown = 2x+2y-3
-    //yellow = (x-1)(y-1) = xy-x-y
-    //2yellow+brown=2xy-3;
-   //노랑과 갈색은 상수취급을해주면
-    //(2ye+br-3)/2 = xy;
-    //(br-3)/2=x+y;
-    //y=(br-3)/2-x
-    //-2x^2+(br-3)x=(2ye+br-3);
+    //단순히 모든경우를 돌며 조건에 맞는경우를 추가해준다.
     vector<int> answer;
     int sum = brown + yellow;
     for (int height = 3; ; height++) {
